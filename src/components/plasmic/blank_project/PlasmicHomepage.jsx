@@ -18,6 +18,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: uZBVLwMr2ixtY6E44z1ebb/projectcss
 import * as sty from "./PlasmicHomepage.module.css"; // plasmic-import: CSRumVa9ln_S/css
+import dogjpeg9S1LCisk from "./images/dogjpeg.jpeg"; // plasmic-import: 9_S1lCISK/picture
 
 export const PlasmicHomepage__VariantProps = new Array();
 
@@ -39,17 +40,14 @@ function PlasmicHomepage__RenderFunc(props) {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"box"}
-            data-plasmic-override={overrides.box}
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box
-            )}
-          >
-            {"Welcome to your first page."}
-          </div>
+          <img
+            data-plasmic-name={"img"}
+            data-plasmic-override={overrides.img}
+            alt={""}
+            className={classNames(defaultcss.img, sty.img)}
+            role={"img"}
+            src={dogjpeg9S1LCisk}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -57,8 +55,8 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box"],
-  box: ["box"]
+  root: ["root", "img"],
+  img: ["img"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -92,7 +90,7 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    img: makeNodeComponent("img"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps

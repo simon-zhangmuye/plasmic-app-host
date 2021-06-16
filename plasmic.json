@@ -42,7 +42,13 @@
         }
       ],
       "icons": [],
-      "images": [],
+      "images": [
+        {
+          "id": "9_S1lCISK",
+          "name": "dog.jpeg",
+          "filePath": "plasmic/blank_project/images/dogjpeg.jpeg"
+        }
+      ],
       "codeComponents": [],
       "projectApiToken": "7uAnXgFYUqlCJjGJTLXMKLy1Uo7H8F7tcVZ9hwf9ePiY2emHyENgRCTaEpVgETNOYrURNw9EhnU5Iieg7Ibw"
     }
