@@ -1,0 +1,62 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "uZBVLwMr2ixtY6E44z1ebb",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "CSRumVa9ln_S",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "uZBVLwMr2ixtY6E44z1ebb",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "codeComponents": [],
+      "projectApiToken": "7uAnXgFYUqlCJjGJTLXMKLy1Uo7H8F7tcVZ9hwf9ePiY2emHyENgRCTaEpVgETNOYrURNw9EhnU5Iieg7Ibw"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "oY_BwBvw2VwS",
+        "name": "Screen",
+        "projectId": "uZBVLwMr2ixtY6E44z1ebb",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.154",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.154/dist/plasmic.schema.json"
+}
